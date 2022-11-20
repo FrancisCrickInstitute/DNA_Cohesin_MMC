@@ -20,6 +20,7 @@ Then run >> click_stack.m. As above, right click to select background fluorescen
 Expected output: histogram with a peak ~ 0 a.u. indicating background fluorescence, with each subsequent peak representing the brightness of one, two, … fluorophores. Typical time required to process the stack of 1000 frames is approximately 1 min. 
 
 For force-distance visualisation and analysis, run >> force_txt_read_file.m and select the force-distance data exported from the JPK Processing software as a txt file. 
+
 Expected output: force-distance curve, showing both x and y contributions. The curve will be force (pN) as a function of displacement (m). For the example data, the force of rupture is ~ 25 pN at ~ 7 um. Expectation is that, pulling in the y direction, this will be the main contribution. However, for determining the total rupture force, both contributions were considered. Typical time required to open the file is approximately 30 seconds.
 Data Examples are available here:
 https://www.dropbox.com/s/a4eiluxajz3viha/Data_Examples.zip?dl=0
