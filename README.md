@@ -41,9 +41,13 @@ findFandL.m is an auxiliary code for two_DNAs and should be in the same folder. 
 One_DNAs_v3.m - calculates rupture force distributions for a model with two breakable interfaces
 
 golden_2D.m - Golden search optimisation (based on https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012175)
+
 One_DNAs_fun.m - Function that calculates mean and variance of the simulated distributions for the optimisation and sampling routines
-cohesins_per_bead_final.m - Calculates distribution of cohesins per bead from the distribution of the cohesins per DNA for various bead per DNA rations. Plot the distribution for optimised ratio. 
+
+cohesins_per_bead_final.m - Calculates distribution of cohesins per bead from the distribution of the cohesins per DNA for various bead per DNA rations. Plot the distribution for optimised ratio.
+
 bootstrapdata.m - generates subsamples of data and fits them to find k0 and delta
+
 golden_2D_for_bootstrap.m - golden search required for bootstrapdata.m
 
 
